@@ -155,7 +155,7 @@ final class CheckoutCompleteContext implements Context
     }
 
     /**
-     * @Then /^my order total should be ("(?:\£|\$)\d+(?:\.\d+)?")$/
+     * @Then /^my order total should be ("(?:\€|\£|\$)\d+(?:\.\d+)?")$/
      */
     public function myOrderTotalShouldBe(int $total): void
     {
